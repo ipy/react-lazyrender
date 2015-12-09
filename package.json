@@ -1,6 +1,6 @@
 {
   "name": "react-lazyrender",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Render React components only when they are in the viewport.",
   "main": "mixin.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/ipy/react-lazyrender.git"
   },
-  "author": "ipy <dev@zouxin.net>",
+  "author": "Sin <dev@zouxin.net>",
   "keywords": [
     "react",
     "react-component",
@@ -24,8 +24,5 @@
   "bugs": {
     "url": "https://github.com/ipy/react-lazyrender/issues"
   },
-  "homepage": "https://github.com/ipy/react-lazyrender#readme",
-  "dependencies": {
-    "in-viewport": "git+https://git@github.com/ipy/in-viewport.git"
-  }
+  "homepage": "https://github.com/ipy/react-lazyrender#readme"
 }

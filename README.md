@@ -28,12 +28,4 @@ var Item = React.createClass({
 
 ### As Higher-Order Component
 
-```js
-import withLazyRender from 'react-lazyrender/decorator';
-@withLazyRender
-class Item {
-  render() {
-    return <li></li>;
-  }
-}
-```
+Removed temporarily
