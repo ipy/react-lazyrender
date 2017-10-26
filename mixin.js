@@ -1,4 +1,5 @@
 var React = require('react');
+var ReactDOM = require('react-dom');
 var inViewport = require('./in-viewport');
 
 module.exports = function reactLazyRenderMixin(options) {
@@ -10,7 +11,7 @@ module.exports = function reactLazyRenderMixin(options) {
         : true;
       if(!shouldUpdate) { return false; }
       var inViewportOption = options.distance ? {offset: options.distance} : {};
-      var thisEl = React.findDOMNode(this);
+      var thisEl = ReactDOM.findDOMNode(this);
       var shouldForceUpdate = typeof options.shouldForceUpdate == 'function'
         ? options.shouldForceUpdate.call(this, nextProps, nextState)
         : false;
